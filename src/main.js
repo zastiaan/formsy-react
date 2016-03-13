@@ -12,6 +12,7 @@ var emptyArray = [];
 Formsy.Mixin = Mixin;
 Formsy.HOC = HOC;
 Formsy.Decorator = Decorator;
+Formsy.validationRules = validationRules;
 
 Formsy.defaults = function (passedOptions) {
   options = passedOptions;
